@@ -8,6 +8,8 @@
 import ComposableArchitecture
 
 struct AppState: Equatable {
+    // カウンタ
     var count = 0
+    // アラートに表示される文字列
     var numberFactAlert: String?
 }
